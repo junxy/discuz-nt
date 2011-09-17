@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F3750A7-4457-41EE-9867-8AEEF05A7DBF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Discuz.Web</RootNamespace>
+    <AssemblyName>Discuz.Web</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FileAlignment>4096</FileAlignment>
+    <DebugSymbols>true</DebugSymbols>
+    <BaseAddress>4194304</BaseAddress>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="NVelocity, Version=1.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="archiver\dntarchiver.css" />
+    <Content Include="archiver\index.aspx" />
+    <Content Include="archiver\showforum.aspx" />
+    <Content Include="archiver\showtopic.aspx" />
+    <Content Include="aspx\1\activationuser.aspx" />
+    <Content Include="aspx\1\announcement.aspx" />
+    <Content Include="aspx\1\attachment.aspx" />
+    <Content Include="aspx\1\buytopic.aspx" />
+    <Content Include="aspx\1\delpost.aspx" />
+    <Content Include="aspx\1\editpost.aspx" />
+    <Content Include="aspx\1\forumlist.aspx" />
+    <Content Include="aspx\1\frame.aspx" />
+    <Content Include="aspx\1\getip.aspx" />
+    <Content Include="aspx\1\getpassword.aspx" />
+    <Content Include="aspx\1\forumindex.aspx" />
+    <Content Include="aspx\1\login.aspx" />
+    <Content Include="aspx\1\logout.aspx" />
+    <Content Include="aspx\1\onlineuser.aspx" />
+    <Content Include="aspx\1\postreply.aspx" />
+    <Content Include="aspx\1\posttopic.aspx" />
+    <Content Include="aspx\1\register.aspx" />
+    <Content Include="aspx\1\search.aspx" />
+    <Content Include="aspx\1\setnewpassword.aspx" />
+    <Content Include="aspx\1\showforum.aspx" />
+    <Content Include="aspx\1\showtemplate.aspx" />
+    <Content Include="aspx\1\showtopic.aspx" />
+    <Content Include="aspx\1\showtopiclist.aspx" />
+    <Content Include="aspx\1\showuser.aspx" />
+    <Content Include="aspx\1\topicadmin.aspx" />
+    <Content Include="aspx\1\usercp.aspx" />
+    <Content Include="aspx\1\usercpcreaditstransferlog.aspx" />
+    <Content Include="aspx\1\usercpcreditsbuy.aspx" />
+    <Content Include="aspx\1\usercpcreditspay.aspx" />
+    <Content Include="aspx\1\usercpcreditspayinlog.aspx" />
+    <Content Include="aspx\1\usercpcreditspayoutlog.aspx" />
+    <Content Include="aspx\1\usercpcreditstransfer.aspx" />
+    <Content Include="aspx\1\usercpdraftbox.aspx" />
+    <Content Include="aspx\1\usercpinbox.aspx" />
+    <Content Include="aspx\1\usercpnewpassword.aspx" />
+    <Content Include="aspx\1\usercppostpm.aspx" />
+    <Content Include="aspx\1\usercpprofile.aspx" />
+    <Content Include="aspx\1\usercpsentbox.aspx" />
+    <Content Include="aspx\1\usercpshowpm.aspx" />
+    <Content Include="aspx\1\userinfo.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="javascript\template_share.js" />
+    <Content Include="templates\default\usercpcreditsbuy.htm" />
+    <Content Include="upgrade\css\styles.css" />
+    <Content Include="upgrade\images\logo.gif" />
+    <Content Include="upgrade\index.aspx" />
+    <Content Include="upgrade\js\setup.js" />
+    <Content Include="upgrade\upgrade.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="archiver\Index.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="archiver\ShowForum.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="archiver\ShowTopic.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\activationuser.aspx.cs">
+      <DependentUpon>activationuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\announcement.aspx.cs">
+      <DependentUpon>announcement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\attachment.aspx.cs">
+      <DependentUpon>attachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\buytopic.aspx.cs">
+      <DependentUpon>buytopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\delpost.aspx.cs">
+      <DependentUpon>delpost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\editpost.aspx.cs">
+      <DependentUpon>editpost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\favorites.aspx.cs">
+      <DependentUpon>favorites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\forumlist.aspx.cs">
+      <DependentUpon>forumlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\frame.aspx.cs">
+      <DependentUpon>frame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\getip.aspx.cs">
+      <DependentUpon>getip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\getpassword.aspx.cs">
+      <DependentUpon>getpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\Help.aspx.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\forumindex.aspx.cs">
+      <DependentUpon>forumindex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\invite.aspx.cs">
+      <DependentUpon>invite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\misc.aspx.cs">
+      <DependentUpon>misc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\modcp.aspx.cs">
+      <DependentUpon>modcp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\myattachment.aspx.cs">
+      <DependentUpon>myattachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\myposts.aspx.cs">
+      <DependentUpon>myposts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\mytopics.aspx.cs">
+      <DependentUpon>mytopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\onlineuser.aspx.cs">
+      <DependentUpon>onlineuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\poll.aspx.cs">
+      <DependentUpon>poll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\postreply.aspx.cs">
+      <DependentUpon>postreply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\posttopic.aspx.cs">
+      <DependentUpon>posttopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\setnewpassword.aspx.cs">
+      <DependentUpon>setnewpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showbonus.aspx.cs">
+      <DependentUpon>showbonus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showdebate.aspx.cs">
+      <DependentUpon>showdebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showforum.aspx.cs">
+      <DependentUpon>showforum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showratelist.aspx.cs">
+      <DependentUpon>showratelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showtemplate.aspx.cs">
+      <DependentUpon>showtemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showtopic.aspx.cs">
+      <DependentUpon>showtopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showtopiclist.aspx.cs">
+      <DependentUpon>showtopiclist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\showuser.aspx.cs">
+      <DependentUpon>showuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\stats.aspx.cs">
+      <DependentUpon>stats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\tags.aspx.cs">
+      <DependentUpon>tags.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\topicadmin.aspx.cs">
+      <DependentUpon>topicadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\useradmin.aspx.cs">
+      <DependentUpon>useradmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercp.aspx.cs">
+      <DependentUpon>usercp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpannouncepm.aspx.cs">
+      <DependentUpon>usercpannouncepm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpcreaditstransferlog.aspx.cs">
+      <DependentUpon>usercpcreaditstransferlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpcreditsbuy.aspx.cs">
+      <DependentUpon>usercpcreditsbuy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpcreditspay.aspx.cs">
+      <DependentUpon>usercpcreditspay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpcreditspayinlog.aspx.cs">
+      <DependentUpon>usercpcreditspayinlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpcreditspayoutlog.aspx.cs">
+      <DependentUpon>usercpcreditspayoutlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpcreditstransfer.aspx.cs">
+      <DependentUpon>usercpcreditstransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpdraftbox.aspx.cs">
+      <DependentUpon>usercpdraftbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpignorelist.aspx.cs">
+      <DependentUpon>usercpignorelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpinbox.aspx.cs">
+      <DependentUpon>usercpinbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpnewpassword.aspx.cs">
+      <DependentUpon>usercpnewpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpnotice.aspx.cs">
+      <DependentUpon>usercpnotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercppmset.aspx.cs">
+      <DependentUpon>usercppmset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercppostpm.aspx.cs">
+      <DependentUpon>usercppostpm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercppreference.aspx.cs">
+      <DependentUpon>usercppreference.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpprofile.aspx.cs">
+      <DependentUpon>usercpprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpsentbox.aspx.cs">
+      <DependentUpon>usercpsentbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpshowpm.aspx.cs">
+      <DependentUpon>usercpshowpm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\usercpsubscribe.aspx.cs">
+      <DependentUpon>usercpsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\userinfo.aspx.cs">
+      <DependentUpon>userinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\1\website.aspx.cs">
+      <DependentUpon>website.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AjaxPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ArchiverPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AttachUpload.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\HelpPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ImageConverterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Avatar.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\NotifyPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\RssPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SessionAjaxPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ShowTopicsPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\SitemapPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\StatusPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TopicPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UserCpPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\VerifyImagePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Discuz.Addons\Discuz.Addons.csproj">
+      <Project>{74DF8F3A-7704-4336-866D-198A20142DE4}</Project>
+      <Name>Discuz.Addons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Aggregation\Discuz.Aggregation.csproj">
+      <Project>{6C7484B3-F4F9-4531-9D26-7D567324AFF8}</Project>
+      <Name>Discuz.Aggregation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Cache\Discuz.Cache.csproj">
+      <Project>{DEC263A7-C844-46A2-B143-91FE1B3A3851}</Project>
+      <Name>Discuz.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Common\Discuz.Common.csproj">
+      <Project>{6A0EC5BD-742F-431D-A9EC-5C0342B2A76A}</Project>
+      <Name>Discuz.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Config\Discuz.Config.csproj">
+      <Project>{F6A5F6C1-BD11-441D-B956-3BF52AEED890}</Project>
+      <Name>Discuz.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Control\Discuz.Control.csproj">
+      <Project>{2A067E35-B67E-4D43-B9A3-5C2037CF2696}</Project>
+      <Name>Discuz.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Data\Discuz.Data.csproj">
+      <Project>{CAA860C2-28D3-4D1B-8D7B-3A83C94DAA65}</Project>
+      <Name>Discuz.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Entity\Discuz.Entity.csproj">
+      <Project>{41156C65-96B0-4026-A4FF-94CC299ABCAB}</Project>
+      <Name>Discuz.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Forum\Discuz.Forum.csproj">
+      <Project>{A44D0E57-6EF1-4DF0-A73F-A7BA86B6C495}</Project>
+      <Name>Discuz.Forum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Install\Discuz.Install.csproj">
+      <Project>{D16ECF86-E60C-4A3A-831B-89537C463E8B}</Project>
+      <Name>Discuz.Install</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Plugin.PasswordMode\Discuz.Plugin.PasswordMode.csproj">
+      <Project>{B5767D89-F853-4CE6-9BE6-7E268BD87D57}</Project>
+      <Name>Discuz.Plugin.PasswordMode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Discuz.Plugin\Discuz.Plugin.csproj">
+      <Project>{8C0DAF87-ABA7-4E6D-B930-187ED559EDB7}</Project>
+      <Name>Discuz.Plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="Admin\Discuz.Web.Admin.csproj">
+      <Project>{A3263B57-6E20-4A9F-8D1F-9A020CF95F08}</Project>
+      <Name>Discuz.Web.Admin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\1\favorites.aspx" />
+    <Content Include="aspx\1\Help.aspx" />
+    <Content Include="aspx\1\myattachment.aspx" />
+    <Content Include="aspx\1\myposts.aspx" />
+    <Content Include="aspx\1\mytopics.aspx" />
+    <Content Include="aspx\1\poll.aspx" />
+    <Content Include="aspx\1\showbonus.aspx" />
+    <Content Include="aspx\1\showdebate.aspx" />
+    <Content Include="aspx\1\stats.aspx" />
+    <Content Include="aspx\1\tags.aspx" />
+    <Content Include="aspx\1\useradmin.aspx" />
+    <Content Include="aspx\1\usercppmset.aspx" />
+    <Content Include="aspx\1\usercppreference.aspx" />
+    <Content Include="aspx\1\usercpsubscribe.aspx" />
+    <Content Include="aspx\1\website.aspx" />
+    <Content Include="bin\Discuz.Aggregation.dll" />
+    <Content Include="bin\Discuz.Aggregation.pdb" />
+    <Content Include="bin\Discuz.Cache.dll" />
+    <Content Include="bin\Discuz.Cache.pdb" />
+    <Content Include="bin\Discuz.Common.dll" />
+    <Content Include="bin\Discuz.Common.pdb" />
+    <Content Include="bin\Discuz.Config.dll" />
+    <Content Include="bin\Discuz.Config.pdb" />
+    <Content Include="bin\Discuz.Control.dll" />
+    <Content Include="bin\Discuz.Control.pdb" />
+    <Content Include="bin\Discuz.Data.dll" />
+    <Content Include="bin\Discuz.Data.pdb" />
+    <Content Include="bin\Discuz.Data.SqlServer.dll" />
+    <Content Include="bin\Discuz.Data.SqlServer.pdb" />
+    <Content Include="bin\Discuz.Entity.dll" />
+    <Content Include="bin\Discuz.Entity.pdb" />
+    <Content Include="bin\Discuz.Forum.dll" />
+    <Content Include="bin\Discuz.Forum.pdb" />
+    <Content Include="bin\Discuz.Install.dll" />
+    <Content Include="bin\Discuz.Install.pdb" />
+    <Content Include="bin\Discuz.Mall.dll" />
+    <Content Include="bin\Discuz.Mall.pdb" />
+    <Content Include="bin\Discuz.Plugin.dll" />
+    <Content Include="bin\Discuz.Plugin.pdb" />
+    <Content Include="bin\Discuz.Space.dll" />
+    <Content Include="bin\Discuz.Space.pdb" />
+    <Content Include="bin\Interop.SQLDMO.dll" />
+    <Content Include="install\index.aspx" />
+    <Content Include="install\step2.aspx" />
+    <Content Include="install\step3.aspx" />
+    <Content Include="install\step4.aspx" />
+    <Content Include="install\succeed.aspx" />
+    <Content Include="install\systemfile.aspx" />
+    <Content Include="javascript\adm.js" />
+    <Content Include="javascript\ajax.js" />
+    <Content Include="javascript\bbcode.js" />
+    <Content Include="javascript\common.js" />
+    <Content Include="javascript\dnteditor.js" />
+    <Content Include="javascript\editor.js" />
+    <Content Include="javascript\editorhelper.js" />
+    <Content Include="javascript\goodscategories.js" />
+    <Content Include="javascript\locations.js" />
+    <Content Include="javascript\menu.js" />
+    <Content Include="javascript\mymenu.js" />
+    <Content Include="javascript\post.js" />
+    <Content Include="javascript\post_editor.js" />
+    <Content Include="javascript\template_album.js" />
+    <Content Include="javascript\template_calendar.js" />
+    <Content Include="javascript\template_colorpicker.js" />
+    <Content Include="javascript\template_debate.js" />
+    <Content Include="javascript\template_eccredit.js" />
+    <Content Include="javascript\template_editgoods.js" />
+    <Content Include="javascript\template_floatadv.js" />
+    <Content Include="javascript\template_hint.js" />
+    <Content Include="javascript\template_inforumad.js" />
+    <Content Include="javascript\template_mallgoodslist.js" />
+    <Content Include="javascript\template_mallindex.js" />
+    <Content Include="javascript\template_mediaad.js" />
+    <Content Include="javascript\template_postgoods.js" />
+    <Content Include="javascript\template_quickreply.js" />
+    <Content Include="javascript\template_report.js" />
+    <Content Include="javascript\template_rotatepic.js" />
+    <Content Include="javascript\template_search.js" />
+    <Content Include="javascript\template_showforum.js" />
+    <Content Include="javascript\template_showgoods.js" />
+    <Content Include="javascript\template_showgoodslist.js" />
+    <Content Include="javascript\template_showphoto.js" />
+    <Content Include="javascript\template_showtopic.js" />
+    <Content Include="javascript\template_spaceblog.js" />
+    <Content Include="javascript\template_tags.js" />
+    <Content Include="javascript\template_usercpshopcategory.js" />
+    <Content Include="javascript\template_usercpshopconfig.js" />
+    <Content Include="javascript\template_usercpshopgoodsmanage.js" />
+    <Content Include="javascript\template_utils.js" />
+    <Content Include="javascript\template_website.js" />
+    <Content Include="templates\default\about.png" />
+    <Content Include="templates\default\about.xml" />
+    <Content Include="templates\default\activationuser.htm" />
+    <Content Include="templates\default\announcement.htm" />
+    <Content Include="templates\default\attachment.htm" />
+    <Content Include="templates\default\buytopic.htm" />
+    <Content Include="templates\default\delpost.htm" />
+    <Content Include="templates\default\dnt.css" />
+    <Content Include="templates\default\editor.css" />
+    <Content Include="templates\default\editpost.htm" />
+    <Content Include="templates\default\favorites.htm" />
+    <Content Include="templates\default\forumindex.htm" />
+    <Content Include="templates\default\forumlist.htm" />
+    <Content Include="templates\default\frame.htm" />
+    <Content Include="templates\default\getip.htm" />
+    <Content Include="templates\default\getpassword.htm" />
+    <Content Include="templates\default\help.htm" />
+    <Content Include="templates\default\login.htm" />
+    <Content Include="templates\default\logout.htm" />
+    <Content Include="templates\default\myattachment.htm" />
+    <Content Include="templates\default\myposts.htm" />
+    <Content Include="templates\default\mytopics.htm" />
+    <Content Include="templates\default\onlineuser.htm" />
+    <Content Include="templates\default\poll.htm" />
+    <Content Include="templates\default\postreply.htm" />
+    <Content Include="templates\default\posttopic.htm" />
+    <Content Include="templates\default\register.htm" />
+    <Content Include="templates\default\search.htm" />
+    <Content Include="templates\default\setnewpassword.htm" />
+    <Content Include="templates\default\showbonus.htm" />
+    <Content Include="templates\default\showdebate.htm" />
+    <Content Include="templates\default\showforum.htm" />
+    <Content Include="templates\default\showtemplate.htm" />
+    <Content Include="templates\default\showtopic.htm" />
+    <Content Include="templates\default\showtopiclist.htm" />
+    <Content Include="templates\default\showuser.htm" />
+    <Content Include="templates\default\stats.htm" />
+    <Content Include="templates\default\tags.htm" />
+    <Content Include="templates\default\templatevariable.xml" />
+    <Content Include="templates\default\topicadmin.htm" />
+    <Content Include="templates\default\useradmin.htm" />
+    <Content Include="templates\default\usercp.htm" />
+    <Content Include="templates\default\usercpcreaditstransferlog.htm" />
+    <Content Include="templates\default\usercpcreditspay.htm" />
+    <Content Include="templates\default\usercpcreditspayinlog.htm" />
+    <Content Include="templates\default\usercpcreditspayoutlog.htm" />
+    <Content Include="templates\default\usercpcreditstransfer.htm" />
+    <Content Include="templates\default\usercpdraftbox.htm" />
+    <Content Include="templates\default\usercpinbox.htm" />
+    <Content Include="templates\default\usercpnewpassword.htm" />
+    <Content Include="templates\default\usercppostpm.htm" />
+    <Content Include="templates\default\usercppreference.htm" />
+    <Content Include="templates\default\usercpprofile.htm" />
+    <Content Include="templates\default\usercpsentbox.htm" />
+    <Content Include="templates\default\usercpshowpm.htm" />
+    <Content Include="templates\default\usercpsubscribe.htm" />
+    <Content Include="templates\default\userinfo.htm" />
+    <Content Include="templates\default\website.css" />
+    <Content Include="templates\default\website.htm" />
+    <Content Include="templates\default\_adlist.htm" />
+    <Content Include="templates\default\_ajaxquickreply.htm" />
+    <Content Include="templates\default\_attachmentinfo.htm" />
+    <Content Include="templates\default\_attachmentmenu.htm" />
+    <Content Include="templates\default\_copyright.htm" />
+    <Content Include="templates\default\_editor.htm" />
+    <Content Include="templates\default\_errmsgbox.htm" />
+    <Content Include="templates\default\_footer.htm" />
+    <Content Include="templates\default\_header.htm" />
+    <Content Include="templates\default\_login.htm" />
+    <Content Include="templates\default\_menu.htm" />
+    <Content Include="templates\default\_msgbox.htm" />
+    <Content Include="templates\default\_pageheader.htm" />
+    <Content Include="templates\default\_pagewordadlist.htm" />
+    <Content Include="templates\default\_permenu.htm" />
+    <Content Include="templates\default\_poll.htm" />
+    <Content Include="templates\default\_postattachments.htm" />
+    <Content Include="templates\default\_quickpost.htm" />
+    <Content Include="templates\default\_quickreply.htm" />
+    <Content Include="templates\default\_quicksearch.htm" />
+    <Content Include="templates\default\_ratelog.htm" />
+    <Content Include="templates\default\_realnamesystem.htm" />
+    <Content Include="templates\default\_report.htm" />
+    <Content Include="templates\default\_rotatepic.htm" />
+    <Content Include="templates\default\_scoremenu.htm" />
+    <Content Include="templates\default\_smsmenu.htm" />
+    <Content Include="templates\default\_subforum.htm" />
+    <Content Include="templates\default\_subscribemenu.htm" />
+    <Content Include="templates\default\_tempaccounts.htm" />
+    <Content Include="templates\default\_usercperrmsgbox.htm" />
+    <Content Include="templates\default\_vcode.htm" />
+    <Content Include="tools\ajax.aspx" />
+    <Content Include="tools\help.aspx" />
+    <Content Include="tools\rss.aspx" />
+    <Content Include="tools\rss.xsl" />
+    <Content Include="tools\showtopics.aspx" />
+    <Content Include="tools\verifyimagepage.aspx" />
+    <Content Include="upgrade\finish.aspx" />
+    <Content Include="upgrade\systemfile.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DNT.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\1\misc.aspx" />
+    <Content Include="aspx\1\modcp.aspx" />
+    <Content Include="aspx\1\usercpannouncepm.aspx" />
+    <Content Include="aspx\1\usercpignorelist.aspx" />
+    <Content Include="aspx\1\usercpnotice.aspx" />
+    <Content Include="bin\Discuz.Plugin.PasswordMode.dll" />
+    <Content Include="bin\Discuz.Plugin.PasswordMode.pdb" />
+    <Content Include="bin\Discuz.Web.Admin.dll" />
+    <Content Include="bin\Discuz.Web.Admin.pdb" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="config\aggregation.config" />
+    <Content Include="config\aggregationconfiginfo.config" />
+    <Content Include="config\album.config" />
+    <Content Include="config\api.config" />
+    <Content Include="config\cache.config" />
+    <Content Include="config\email.config" />
+    <Content Include="config\ftp.config" />
+    <Content Include="config\general.config" />
+    <Content Include="config\myattachment.config" />
+    <Content Include="config\mymenu.config" />
+    <Content Include="config\photo.config" />
+    <Content Include="config\schedule.config" />
+    <Content Include="config\scoreset.config" />
+    <Content Include="config\scriptevent_access.config" />
+    <Content Include="config\scriptevent_mysql.config" />
+    <Content Include="config\scriptevent_sqlserver.config" />
+    <Content Include="config\space.config" />
+    <Content Include="config\spread.config" />
+    <Content Include="config\trade.config" />
+    <Content Include="config\urls.config" />
+    <Content Include="javascript\template_attach.js" />
+    <Content Include="javascript\template_goodsadmin.js" />
+    <Content Include="javascript\template_modcp.js" />
+    <Content Include="javascript\template_usercpnotice.js" />
+    <Content Include="tools\avatar.aspx" />
+    <Content Include="tools\sessionajax.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\1\invite.aspx" />
+    <Content Include="bin\Discuz.EntLib.dll" />
+    <Content Include="bin\Discuz.EntLib.pdb" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="templates\default\referrer.htm" />
+    <Content Include="tools\synclocalcache.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\1\showratelist.aspx" />
+    <Content Include="bin\Discuz.Addons.dll" />
+    <Content Include="bin\Discuz.Addons.pdb" />
+    <Content Include="javascript\jquery.js" />
+    <Content Include="javascript\template_announcement.js" />
+    <Content Include="javascript\template_forumindexquickpost.js" />
+    <Content Include="templates\default\css.css" />
+    <Content Include="templates\default\float.css" />
+    <Content Include="templates\default\forumsearch.htm" />
+    <Content Include="templates\default\invite.htm" />
+    <Content Include="templates\default\misc.htm" />
+    <Content Include="templates\default\modcp.htm" />
+    <Content Include="templates\default\showratelist.htm" />
+    <Content Include="templates\default\topicrecommend.htm" />
+    <Content Include="templates\default\usercpannouncepm.htm" />
+    <Content Include="templates\default\usercpignorelist.htm" />
+    <Content Include="templates\default\usercpnotice.htm" />
+    <Content Include="templates\default\_editor_menu.htm" />
+    <Content Include="templates\default\_mymenu.htm" />
+    <Content Include="templates\default\_post.htm" />
+    <Content Include="templates\default\_post_attachlist.htm" />
+    <Content Include="templates\default\_seditor.htm" />
+    <Content Include="templates\default\_smiley.htm" />
+    <Content Include="templates\default\_stylejump.htm" />
+    <Content Include="templates\default\_subeditor.htm" />
+    <Content Include="templates\default\_usercpmsgbox.htm" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

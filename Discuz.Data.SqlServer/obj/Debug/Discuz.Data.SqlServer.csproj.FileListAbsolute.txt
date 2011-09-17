@@ -1,0 +1,5 @@
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\bin\Discuz.Data.SqlServer.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\bin\Discuz.Data.SqlServer.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data.SqlServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data.SqlServer\obj\Debug\Discuz.Data.SqlServer.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data.SqlServer\obj\Debug\Discuz.Data.SqlServer.pdb

@@ -1,0 +1,8 @@
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\bin\Debug\Discuz.Entity.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\bin\Debug\Discuz.Entity.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\bin\Debug\Discuz.Common.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\bin\Debug\Discuz.Common.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\obj\Debug\Discuz.Entity.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Entity\obj\Debug\Discuz.Entity.pdb

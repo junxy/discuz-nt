@@ -1,0 +1,187 @@
+<%if {config.disableforumhot}==1%>
+<link rel="stylesheet" href="{cssdir}/forumhot.css" type="text/css" media="all" />
+<script type="text/javascript"  src="{jsdir}/slide.js"></script>
+<script type="text/javascript">
+    function tabselect(id) {
+        $('hot_layer_' + id).style.display = ''
+        $('tab_li_' + id).className = 'current'
+        for (var i = 1; i <= 5; i++) {
+            if (i != id) {
+                if ($('tab_li_' + i)) {
+                    $('tab_li_' + i).className = 'switchNavItem'
+                    $('hot_layer_' + i).style.display = 'none';
+                }
+            }
+        }
+    }
+</script>
+<div class="main cl forumhot">
+    <table width="100%" cellspacing="0" cellpadding="0">
+	    <tbody>
+	        <tr>
+		        <td width="375">
+		        <%loop hotpics forumhotslist%>
+			        <%set (string){datatype} = hotpics["datatype"].ToString()%>
+			        <%set (string){sorttype} = hotpics["sorttype"].ToString()%>			
+			        <%set (string){forumid} = hotpics["forumid"].ToString()%>
+			        <%set (int){topiccount} = TypeConverter.ObjectToInt(hotpics["topiccount"])%>
+			        <%set (int){cachetime} = TypeConverter.ObjectToInt(hotpics["cachetime"])%>
+			        <%set (int){id} = TypeConverter.ObjectToInt(hotpics["id"])%>
+			        <%set (int){displayorder} = TypeConverter.ObjectToInt(hotpics["displayorder"])%>
+			        <%set (int){topictitlelength} = TypeConverter.ObjectToInt(hotpics["topictitlelength"])%>
+			        <%if {datatype}=="pictures"%>
+			            <div class="title_bar xg2">
+				            <h2>{hotpics[name]}</h2>
+			            </div>
+                        <div id="focusViwer">
+                            <div id="imgADPlayer"></div> 
+                            <script  type="text/javascript">
+                                var hotimagesarray = eval('{ForumHots.HotImagesArray(topiccount,cachetime,sorttype,id,forumid,displayorder)}');
+                                for (i = 0; i < hotimagesarray.length; i++) {
+                                    PImgPlayer.addItem("" + hotimagesarray[i].title.substr(0,{topictitlelength}) + "", "" + hotimagesarray[i].url + "", "" + hotimagesarray[i].img + "");
+                                }
+                                if(hotimagesarray.length>0)
+                                    PImgPlayer.init("imgADPlayer", 360, 240);   
+                            </script>
+                        </div>
+			        <%/if%>	
+		        <%/loop%>
+		        </td>
+		        <td>
+		            <div class="title_bar xg2">
+			            <ul id="tabswi1_A" class="tab_forumhot">
+			            <%loop forumhots forumhotslist%>
+			            <%set (int){displayorder} = TypeConverter.ObjectToInt(forumhots["displayorder"])%>	
+  				            <%if {forumhots[id]}!="6" && {displayorder}==1%>
+				                <li class="switchNavItem" index="2" id="tab_li_{forumhots[id]}"><a href="javascript:;"  onmousemove="tabselect({forumhots[id]})">{forumhots[name]}</a></li>
+				            <%/if%>
+			            <%/loop%>
+			            </ul>
+		            </div>
+		            <div id="tabswi1_B" class="pd cl">
+		            <%loop forumhotname forumhotslist%>		
+		            <%set (int){displayorder} = TypeConverter.ObjectToInt(forumhotname["displayorder"])%>						
+   		             <%if {forumhotname[id]}!="6" && {displayorder}==1%>
+			            <%set (string){datatype} = forumhotname["datatype"].ToString()%>
+			            <%set (int){topiccount} = TypeConverter.ObjectToInt(forumhotname["topiccount"])%>		
+			            <%set (int){forumnamelength} = TypeConverter.ObjectToInt(forumhotname["forumnamelength"])%>
+			            <%set (int){topictitlelength} = TypeConverter.ObjectToInt(forumhotname["topictitlelength"])%>				
+			            <%set (int){cachetime} = TypeConverter.ObjectToInt(forumhotname["cachetime"])%>
+			            <%set (int){id} = TypeConverter.ObjectToInt(forumhotname["id"])%>
+			            <%if {datatype}=="topics"%>
+			            <div class="newHotB" name="hot_layer_{forumhotname[id]}" id="hot_layer_{forumhotname[id]}"  style="display:none">	
+				            <%set (TopicOrderType){sorttype} = (TopicOrderType)Enum.Parse(typeof(TopicOrderType), forumhotname["sorttype"].ToString())%>
+				            <%set (TopicTimeType){topictimetype} = (TopicTimeType)Enum.Parse(typeof(TopicTimeType), forumhotname["topictimetype"].ToString())%>
+				            <%set (string){forumid} = forumhotname["forumid"].ToString()%>
+				            <%loop hottopic ForumHots.GetTopicList(topiccount,0,sorttype,false,cachetime,false,forumid,id,topictimetype)%>
+					            <%set (string){topicsname} = Utils.GetSubString(Utils.RemoveHtml(hottopic["title"].ToString().Trim()),topictitlelength*2,"")%>
+					            <%set (string){forumsname} = Utils.GetSubString(Utils.RemoveHtml(hottopic["name"].ToString().Trim()),forumnamelength*2,"")%>
+					            <%set {aspxrewriteurl} = this.ShowTopicAspxRewrite({hottopic[tid]},0)%>
+					            <%set (string){aspxrewriteurl1} = this.ShowForumAspxRewrite({hottopic[fid]},0)%>
+					            <%if {hottopic[_id]}==1%>
+					            <%set (int){tid} = TypeConverter.ObjectToInt(hottopic["tid"])%>
+					
+					            <%loop firsttopic ForumHots.GetFirstPostInfo(tid,cachetime)%>
+						            <%if {firsttopic[layer]}=="0"%>
+						            <%set (string){message} = ForumHots.RemoveUbb(firsttopic["message"].ToString().Trim(),300)%>
+						            <dl class="i_hot">
+							            <dt class="xg2"><a href="{forumurl}{aspxrewriteurl}" target="_blank">{topicsname}</a></dt>
+							            <dd>{message}</dd>
+						            </dl>
+						            <%/if%>
+					            <%/loop%>
+					            <%else%>
+					
+					            <%if {hottopic[_id]}==8 || {hottopic[_id]}==2%>
+					            <ul class="hotlist">
+					            <%/if%>					
+					            <li><a href="{forumurl}{aspxrewriteurl1}" target="_blank">【{forumsname}】</a><a href="{forumurl}{aspxrewriteurl}" target="_blank" class="xg2">{topicsname}</a></li>
+					            <%if {hottopic[_id]}==7 || {hottopic[_id]}==13%>
+					            </ul>
+					            <%/if%>
+
+					            <%/if%>
+				            <%/loop%>
+				            </div>
+			            <%/if%>
+			            <%if {datatype}=="users" %>
+			            <div class="newHotB" name="hot_layer_{forumhotname[id]}" id="hot_layer_{forumhotname[id]}" style="display:none">	
+				            <%set (string){sorttype} = forumhotname["sorttype"].ToString()%>
+				            <%loop (ShortUserInfo) user ForumHots.GetUserList(topiccount,sorttype,cachetime,id)%>
+					            <%set {aspxrewriteurl} = this.UserInfoAspxRewrite({user.uid})%>
+					            <%if {user[_id]}%10==1 || {user[_id]}==1%>
+						             <%if {user[_id]}==1%>
+							            <ul class="hotlist cl one">
+						            <%else%>
+							            <ul class="hotlist cl two">
+						            <%/if%>
+					            <%/if%>
+					            <li>
+					                <em>
+					                [
+					                <%if {sorttype}=="credits"%>{user.credits}<%/if%>
+					                <%if {sorttype}=="posts"%>{user.posts}<%/if%>
+                                    <%if {sorttype}=="today"%>{user.posts}<%/if%>
+                                    <%if {sorttype}=="thisweek"%>{user.posts}<%/if%>
+                                    <%if {sorttype}=="thismonth"%>{user.posts}<%/if%>
+                                    <%if {sorttype}=="digestposts"%>{user.digestposts}<%/if%>
+					                <%if {sorttype}=="lastactivity"%>{user.lastactivity}<%/if%>
+					                <%if {sorttype}=="joindate"%>{user.joindate}<%/if%>
+					                ]
+					                </em>
+					                <img onerror="this.onerror=null;this.src='{forumpath}images/common/noavatar_small.gif';" src="{Avatars.GetAvatarUrl(user.Uid,AvatarSize.Small)}" width="16" height="16"><a href="{forumurl}{aspxrewriteurl}" target="_blank">{user.username}</a>
+					            </li>
+					            <%if {user[_id]}%10==0%>
+					            </ul>
+					            <%/if%>
+				            <%/loop%>
+			            </div>
+			            <%/if%>
+			            <%if {datatype}=="forums"%>
+			            <div class="newHotB" name="hot_layer_{forumhotname[id]}" id="hot_layer_{forumhotname[id]}" style="display:none">	
+				            <%set (string){sorttype} = forumhotname["sorttype"].ToString()%>
+				            <%loop (ForumInfo) foruminfo ForumHots.GetHotForumList(topiccount,sorttype,cachetime,id)%>
+					            <%set {aspxrewriteurl} = this.ShowForumAspxRewrite({strtoint({foruminfo.fid})},0)%>
+					            <%if {foruminfo[_id]}%10==1 || {foruminfo[_id]}==1%>
+                                    <%if {foruminfo[_id]}==1%>
+							            <ul class="hotlist cl one">
+						            <%else%>
+							            <ul class="hotlist cl two">
+						            <%/if%>
+					            <%/if%>
+					                <li><em>
+					                [
+					                <%if {sorttype}=="posts"%>{foruminfo.posts}<%/if%>
+					                <%if {sorttype}=="topics"%>{foruminfo.topics}<%/if%>
+					                <%if {sorttype}=="today"%>{foruminfo.posts}<%/if%>
+                                    <%if {sorttype}=="thismonth"%>{foruminfo.posts}<%/if%>
+                                    ]
+					                </em><a href="{forumurl}{aspxrewriteurl}" target="_blank">{foruminfo.name}</a>
+					                </li>
+					            <%if {foruminfo[_id]}%10==0%>
+					            </ul>
+					            <%/if%>		
+				            <%/loop%>
+			            </div>
+			            <%/if%>
+		            <%/if%>
+		            <%/loop%>
+		            </div>
+		        </td>
+	        </tr>
+	    </tbody>
+    </table>
+</div>
+<%/if%>
+<script type="text/javascript">
+    for (var i = 1; i <= 5; i++) {
+        try {
+            $('hot_layer_' + i).style.display = ''
+            $('tab_li_' + i).className = 'current'
+            break;
+        }
+        catch (e) {
+            continue;
+        }
+    }
+</script>

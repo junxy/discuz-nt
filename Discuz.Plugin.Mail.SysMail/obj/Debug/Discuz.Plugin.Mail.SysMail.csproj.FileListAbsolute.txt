@@ -1,0 +1,14 @@
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.Mail.SysMail.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.Mail.SysMail.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Common.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Entity.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Config.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Common.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Entity.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Config.pdb
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\obj\Debug\Discuz.Plugin.Mail.SysMail.dll
+C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Mail.SysMail\obj\Debug\Discuz.Plugin.Mail.SysMail.pdb

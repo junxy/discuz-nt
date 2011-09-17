@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Discuz_vs10">
+</Property><Property Name="解决方案文件" Value="C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz_vs10.sln">
+</Property><Property Name="Date" Value="2011年9月17日">
+</Property><Property Name="Time" Value="9:11">
+</Property></Properties><Event ErrorLevel="1" Project="Discuz.Forum" Source="Discuz.Forum\Discuz.Forum.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Forum" Source="Discuz.Forum\Discuz.Forum.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Forum" Source="Discuz.Forum\Discuz.Forum.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Discuz.Common" Source="Discuz.Common\Discuz.Common.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Discuz.Common" Source="Discuz.Common\Discuz.Common.csproj" Description="无需转换">
+</Event><Event ErrorLevel="1" Project="Discuz.Aggregation" Source="Discuz.Aggregation\Discuz.Aggregation.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Aggregation" Source="Discuz.Aggregation\Discuz.Aggregation.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Aggregation" Source="Discuz.Aggregation\Discuz.Aggregation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Discuz.Cache" Source="Discuz.Cache\Discuz.Cache.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Discuz.Cache" Source="Discuz.Cache\Discuz.Cache.csproj" Description="无需转换">
+</Event><Event ErrorLevel="1" Project="Discuz.Config" Source="Discuz.Config\Discuz.Config.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Config" Source="Discuz.Config\Discuz.Config.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Config" Source="Discuz.Config\Discuz.Config.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Data" Source="Discuz.Data\Discuz.Data.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Data" Source="Discuz.Data\Discuz.Data.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Data" Source="Discuz.Data\Discuz.Data.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Data.SqlServer" Source="Discuz.Data.SqlServer\Discuz.Data.SqlServer.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Data.SqlServer" Source="Discuz.Data.SqlServer\Discuz.Data.SqlServer.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Data.SqlServer" Source="Discuz.Data.SqlServer\Discuz.Data.SqlServer.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Control" Source="Discuz.Control\Discuz.Control.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Control" Source="Discuz.Control\Discuz.Control.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Control" Source="Discuz.Control\Discuz.Control.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Entity" Source="Discuz.Entity\Discuz.Entity.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Entity" Source="Discuz.Entity\Discuz.Entity.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Entity" Source="Discuz.Entity\Discuz.Entity.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Plugin.Preview.Jpg" Source="Discuz.Plugin.Preview.Jpg\Discuz.Plugin.Preview.Jpg.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.Preview.Jpg" Source="Discuz.Plugin.Preview.Jpg\Discuz.Plugin.Preview.Jpg.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Plugin.Preview.Jpg" Source="Discuz.Plugin.Preview.Jpg\Discuz.Plugin.Preview.Jpg.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Plugin.Spread" Source="Discuz.Web\plugin\Spread\Discuz.Plugin.Spread.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.Spread" Source="Discuz.Web\plugin\Spread\Discuz.Plugin.Spread.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Plugin.Spread" Source="Discuz.Web\plugin\Spread\Discuz.Plugin.Spread.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Web.Services" Source="Discuz.Web.Services\Discuz.Web.Services.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Web.Services" Source="Discuz.Web.Services\Discuz.Web.Services.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Web.Services" Source="Discuz.Web.Services\Discuz.Web.Services.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Plugin" Source="Discuz.Plugin\Discuz.Plugin.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin" Source="Discuz.Plugin\Discuz.Plugin.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Plugin" Source="Discuz.Plugin\Discuz.Plugin.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Install" Source="Discuz.Install\Discuz.Install.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Install" Source="Discuz.Install\Discuz.Install.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Install" Source="Discuz.Install\Discuz.Install.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Plugin.Mail.SysMail" Source="Discuz.Plugin.Mail.SysMail\Discuz.Plugin.Mail.SysMail.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.Mail.SysMail" Source="Discuz.Plugin.Mail.SysMail\Discuz.Plugin.Mail.SysMail.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Plugin.Mail.SysMail" Source="Discuz.Plugin.Mail.SysMail\Discuz.Plugin.Mail.SysMail.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Event" Source="Discuz.Event\Discuz.Event.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Event" Source="Discuz.Event\Discuz.Event.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Event" Source="Discuz.Event\Discuz.Event.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Web.Admin" Source="Discuz.Web\admin\Discuz.Web.Admin.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Web.Admin" Source="Discuz.Web\admin\Discuz.Web.Admin.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Web.Admin" Source="Discuz.Web\admin\Discuz.Web.Admin.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Discuz.Web" Source="Discuz.Web\Discuz.Web.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Discuz.Web" Source="Discuz.Web\Discuz.Web.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Web" Source="Discuz.Web\Discuz.Web.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.PasswordMode" Source="Discuz.Plugin.PasswordMode\Discuz.Plugin.PasswordMode.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Discuz.Plugin.PasswordMode" Source="Discuz.Plugin.PasswordMode\Discuz.Plugin.PasswordMode.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Discuz_vs10.sln" Description="解决方案文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="" Source="Discuz_vs10.sln" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="Discuz.Forum" Source="Discuz.Forum\Discuz.Forum.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Aggregation" Source="Discuz.Aggregation\Discuz.Aggregation.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Config" Source="Discuz.Config\Discuz.Config.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Data" Source="Discuz.Data\Discuz.Data.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Data.SqlServer" Source="Discuz.Data.SqlServer\Discuz.Data.SqlServer.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Control" Source="Discuz.Control\Discuz.Control.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Entity" Source="Discuz.Entity\Discuz.Entity.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.Preview.Jpg" Source="Discuz.Plugin.Preview.Jpg\Discuz.Plugin.Preview.Jpg.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.Spread" Source="Discuz.Web\plugin\Spread\Discuz.Plugin.Spread.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Web.Services" Source="Discuz.Web.Services\Discuz.Web.Services.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin" Source="Discuz.Plugin\Discuz.Plugin.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Install" Source="Discuz.Install\Discuz.Install.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.Mail.SysMail" Source="Discuz.Plugin.Mail.SysMail\Discuz.Plugin.Mail.SysMail.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Event" Source="Discuz.Event\Discuz.Event.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Web.Admin" Source="Discuz.Web\admin\Discuz.Web.Admin.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Web" Source="Discuz.Web\Discuz.Web.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Discuz.Plugin.PasswordMode" Source="Discuz.Plugin.PasswordMode\Discuz.Plugin.PasswordMode.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,48 @@
+/*
+Offical Style for Discuz!NT(R)
+URL: http://NT.discuz.net
+(C) 2001-2009 Comsenz Inc.
+*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Common Style ~~~~ */
+*{word-wrap:break-word;}	
+body{background:#F4F4F4;text-align:left;}
+body,td,input,textarea,select,button{color:#333;font:12px/1.6em Verdana,Helvetica,Arial,sans-serif;}
+input,select,button{vertical-align:middle;}
+body,ul,li,dl,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:1em;}
+ul li{list-style:none;}
+a{text-decoration:none; color:#333;}
+a:hover{text-decoration:underline;}
+a img{border:none;}
+em,cite,strong,th{text-align:left;font-style:normal;}
+table{empty-cells:show;border-collapse:collapse;}
+.right{float:right;}
+.left{float:left;}
+.s_clear{zoom:1;}
+hr {border:0 solid #E6E7E1;clear:both;margin:1em 0;}
+.solidline {border-bottom-width:1px;border-top:1px solid #FFF;}
+.wrap{overflow:hidden;position:absolute;top:50%;left:50%;margin-left:-376px;margin-top:-232px;width:758px;height:464px;background:#CCC url(images/wrap_bg.jpg) no-repeat 0 0;border:1px solid #000;}
+.side{float:left;margin-left:-574px;overflow:hidden;width:100%;}
+	.side .side_bar{position:relative;margin-left:574px;width:auto;height:464px;}
+	.side_bar h1{position:absolute;top:70px;left:125px;font:bold 16px Verdana,Arial,Helvetica,sans-serif;color:#B1C2D6;cursor:default;}
+	.side_bar ul{text-align:left;padding-top:100px;margin-left:20px;font-size:14px;}
+		.side_bar li{list-style:none;color:#C4C4C4;height:26px;line-height:26px;padding-left:16px;}
+		.side_bar li.currentitem{color:#FFF;background:url(images/icon_item.gif) no-repeat 0 50%;font-weight:700;}
+	.side_bar .copy{position:absolute;left:10px;bottom:20px;color:#FFF;}
+.main{position:relative;float:right;padding-bottom:20px;width:574px;}
+	.content{overflow:auto;zoom:1;background:#F1F1F1;margin:15px 14px 15px 12px;height:404px;}
+	.content h1{font-weight:700;font-size:16px;color:#000;height:66px;line-height:66px;padding-left:10px;}
+	.inner{overflow:auto;zoom:1;overflow-x:hidden;background:#FFF;border:1px solid #9A9A9A;margin:0 10px;padding:10px;height:296px!important;height:296px;}
+		.hint{border:1px dashed #CCC;margin-bottom:16px;color:#CCC;}
+		.hint_info{background:#FFFAE6 url(images/icon.gif) no-repeat 10px 14px;padding:10px 10px 10px 30px;}
+		.loading_info{background:#FFFAE6 url(images/loading.gif) no-repeat 5px 8px;padding:10px 10px 10px 35px;}
+	.btn_box{text-align:right;margin:0 10px;}
+		.btn_box button{margin-left:10px;}	
+	.msgsinfo{background:url(images/right.gif) no-repeat 40px 50%;padding:10px 0 10px 90px;}
+	.more_info{padding-left:90px;}
+	.ad{border-bottom:1px solid #CCC;margin:0 0 20px 0;}
+    .ad li{list-style:none;text-align:center;margin-bottom:4px;}
+	.userinfo{padding:10px 0 10px 90px;}
+	.links{margin-top:10px;}
+	    .links li{list-style:none;float:left;display:inline;width:49.5%;}
+	#message{position:absolute;top:400px;left:410px;padding:4px 10px 4px 24px;border:1px solid #ccc;background:#FFFAE6 url(images/icon.gif) no-repeat 10px 50%;}
