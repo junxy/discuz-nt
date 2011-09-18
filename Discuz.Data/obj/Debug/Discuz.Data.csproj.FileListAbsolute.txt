@@ -12,3 +12,17 @@ C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data\bin\Debu
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data\obj\Debug\Discuz.Data.dll
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Data\obj\Debug\Discuz.Data.pdb
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Data.dll
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Data.pdb
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Cache.dll
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Common.dll
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Config.dll
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Entity.dll
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Cache.pdb
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Common.pdb
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Config.pdb
+E:\Projects\discuz-nt\Discuz.Data\bin\Debug\Discuz.Entity.pdb
+E:\Projects\discuz-nt\Discuz.Data\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\discuz-nt\Discuz.Data\obj\Debug\Discuz.Data.dll
+E:\Projects\discuz-nt\Discuz.Data\obj\Debug\Discuz.Data.pdb

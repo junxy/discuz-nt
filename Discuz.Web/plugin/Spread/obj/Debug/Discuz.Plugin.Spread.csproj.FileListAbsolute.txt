@@ -3,3 +3,8 @@ C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\bin\Discu
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\plugin\Spread\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\plugin\Spread\obj\Debug\Discuz.Plugin.Spread.dll
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\plugin\Spread\obj\Debug\Discuz.Plugin.Spread.pdb
+E:\Projects\discuz-nt\Discuz.Web\plugin\Spread\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\discuz-nt\Discuz.Web\bin\Discuz.Plugin.Spread.dll
+E:\Projects\discuz-nt\Discuz.Web\bin\Discuz.Plugin.Spread.pdb
+E:\Projects\discuz-nt\Discuz.Web\plugin\Spread\obj\Debug\Discuz.Plugin.Spread.dll
+E:\Projects\discuz-nt\Discuz.Web\plugin\Spread\obj\Debug\Discuz.Plugin.Spread.pdb

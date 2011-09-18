@@ -3,3 +3,8 @@ C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\bin\Discu
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\admin\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\admin\obj\Debug\Discuz.Web.Admin.dll
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\admin\obj\Debug\Discuz.Web.Admin.pdb
+E:\Projects\discuz-nt\Discuz.Web\admin\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\discuz-nt\Discuz.Web\bin\Discuz.Web.Admin.dll
+E:\Projects\discuz-nt\Discuz.Web\bin\Discuz.Web.Admin.pdb
+E:\Projects\discuz-nt\Discuz.Web\admin\obj\Debug\Discuz.Web.Admin.dll
+E:\Projects\discuz-nt\Discuz.Web\admin\obj\Debug\Discuz.Web.Admin.pdb

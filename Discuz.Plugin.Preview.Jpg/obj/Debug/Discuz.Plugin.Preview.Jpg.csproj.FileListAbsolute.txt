@@ -3,3 +3,8 @@ C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Web\bin\Discu
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Preview.Jpg\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.dll
 C:\Users\Junxy\Desktop\dnt_3.5.2_sqlserver_src\source_files\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.pdb
+E:\Projects\discuz-nt\Discuz.Web\bin\Discuz.Plugin.Preview.Jpg.dll
+E:\Projects\discuz-nt\Discuz.Web\bin\Discuz.Plugin.Preview.Jpg.pdb
+E:\Projects\discuz-nt\Discuz.Plugin.Preview.Jpg\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\discuz-nt\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.dll
+E:\Projects\discuz-nt\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.pdb

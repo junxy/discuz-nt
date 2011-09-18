@@ -46,6 +46,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discuz.Web", "Discuz.Web\Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discuz.Plugin.PasswordMode", "Discuz.Plugin.PasswordMode\Discuz.Plugin.PasswordMode.csproj", "{B5767D89-F853-4CE6-9BE6-7E268BD87D57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discuz.Data.MySql", "Discuz.Data.MySql\Discuz.Data.MySql.csproj", "{4B80C158-29A6-44C7-9E5F-DFF739A038BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discuz.Data.SqlServerCe", "Discuz.Data.SqlServerCe\Discuz.Data.SqlServerCe.csproj", "{36E78A43-96E5-40DE-852F-4C9A603D904B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -404,6 +408,42 @@ Global
 		{B5767D89-F853-4CE6-9BE6-7E268BD87D57}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B5767D89-F853-4CE6-9BE6-7E268BD87D57}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B5767D89-F853-4CE6-9BE6-7E268BD87D57}.Release|Win32.ActiveCfg = Release|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Default|.NET.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Default|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Default|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Default|Win32.ActiveCfg = Debug|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Release|.NET.ActiveCfg = Release|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4B80C158-29A6-44C7-9E5F-DFF739A038BE}.Release|Win32.ActiveCfg = Release|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Default|.NET.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Default|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Default|Mixed Platforms.Build.0 = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Default|Win32.ActiveCfg = Debug|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Release|.NET.ActiveCfg = Release|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{36E78A43-96E5-40DE-852F-4C9A603D904B}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

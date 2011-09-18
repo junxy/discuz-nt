@@ -3882,4 +3882,4 @@ function showTip(ctrlobj) {
  $('append_parent').appendChild(div);
  }
  showMenu({'mtype':'prompt','ctrlid':ctrlobj.id,'pos':'210','duration':2,'timeout':250,'zindex':JSMENU['zIndex']['prompt']});
-}   
+}        
